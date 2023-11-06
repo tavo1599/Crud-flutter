@@ -1,0 +1,11 @@
+services
+
+CREATE TABLE reservas (
+    id_reserva INT AUTO_INCREMENT PRIMARY KEY,
+    cliente VARCHAR(255) NOT NULL,
+    telefono VARCHAR(20),
+    fecha VARCHAR(10) NOT NULL,
+    hora VARCHAR(8) NOT NULL,
+    cantidad_Personas VARCHAR(10),
+    precio VARCHAR(10)
+);
